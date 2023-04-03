@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "jwt.token.secret",
+      "type": "java.lang.String",
+      "description": "Description for jwt.token.secret."
+    },
+    {
+      "name": "jwt.token.expired",
+      "type": "java.lang.String",
+      "description": "Description for jwt.token.expired."
+    },
+    {
+      "name": "reddit.scrapper.retry_count",
+      "type": "java.lang.Integer",
+      "description": "Description for reddit.scrapper.retry_count."
+    }
+  ] }
