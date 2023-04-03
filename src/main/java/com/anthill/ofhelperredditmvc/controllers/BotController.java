@@ -76,7 +76,6 @@ public class BotController {
         var saved = upVoteGroupService.save(group, user);
 
         var started = upVoteGroupActionsService.start(saved);
-        //todo send started to page
 
         return new ResponseEntity<>(started, HttpStatus.OK);
     }
